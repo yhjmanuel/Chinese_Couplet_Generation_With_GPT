@@ -1,7 +1,5 @@
 #### This project trains a couplet prediction model (the prediction model only supports 14-character couplets).
 
-## Couplet prediction model:
-All related scripts are in the "prediction" folder.
 When giving the model an input of the first half of the couplet (7 Chinese characters), it will predict the second half.
 Some ideas & block implementations of the GPT, (especially the positional encoding part), are based on this great 
 Transformer notebook from Harvard: https://nlp.seas.harvard.edu/2018/04/03/attention.html
@@ -16,8 +14,6 @@ will be saved to the configured paths. Each time you run the script, the order o
 
 predict.py: after running train.py and getting the word dict & model, set the "sen_str" variable in predict.py (the first half 
 of a couplet), and run the script to get the second half as output.
-
-GPT_training.ipynb: how the model is trained in Google Colab
 
 The trained model can be accessed at: https://drive.google.com/file/d/132E2gSzpjOpdWz0Qo-1MgzeUAnq8a59I/view?usp=sharing
 
