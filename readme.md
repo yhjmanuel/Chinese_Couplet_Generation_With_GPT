@@ -1,4 +1,4 @@
-#### This project trains a couplet prediction model (the prediction model only supports 14-character couplets).
+#### This project trains a couplet prediction model (the prediction model only supports 14-character couplets) using teacher-forcing.
 
 When giving the model an input of the first half of the couplet (7 Chinese characters), it will predict the second half.
 Some ideas & block implementations of the GPT, (especially the positional encoding part), are based on this great 
